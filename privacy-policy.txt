@@ -1,0 +1,31 @@
+ClearSpend Privacy Policy
+Last updated: May 13, 2026
+
+1. Data We Collect
+ClearSpend collects the following data that you provide:
+- Transaction data: amounts, categories, dates, notes, and merchant names you enter
+- Budget data: income, savings goals, and expense limits you set
+- Receipt images: photos you scan for receipt capture
+- Subscription information: detected App Store subscriptions (with your permission)
+
+2. How We Use Your Data
+Your data is used solely to provide the app's features:
+- Display spending summaries, charts, and AI-powered insights
+- Track budgets and goals
+- Sync data to your account for backup and multi-device access
+We do not sell your data to third parties. We do not use your data for advertising.
+
+3. Data Storage
+Your data is stored on your device and synced to our secure cloud backend (Base44) when you create an account. You can use the app in guest mode without creating an account, in which case data stays only on your device.
+
+4. AI Features
+AI analysis features send anonymized transaction summaries to our AI service for processing. No personally identifiable information is included in these requests. Raw transaction details are never shared with the AI provider.
+
+5. Your Rights
+You can:
+- Export all your data at any time from Settings > Export CSV
+- Delete all your data by using Settings > Export & Reset
+- Request full data deletion by contacting us
+
+6. Contact
+For privacy questions or data deletion requests, contact: clearspend.app@gmail.com
