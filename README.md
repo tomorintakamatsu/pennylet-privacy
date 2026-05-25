@@ -1,2 +1,2 @@
-# clearspend-privacy
-Privacy page for clearspend
+# pennylet-privacy
+Privacy policy page for PennyLet.
