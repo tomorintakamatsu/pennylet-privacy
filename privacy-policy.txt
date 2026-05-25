@@ -1,32 +1,45 @@
 PennyLet Privacy Policy
 Last updated: May 25, 2026
 
-1. Data We Collect
-PennyLet collects the following data that you provide:
-- Transaction data: amounts, categories, dates, notes, and merchant names you enter
-- Budget data: income, savings goals, and expense limits you set
-- Receipt images: photos you scan for receipt capture
-- Subscription information: detected App Store subscriptions, with your permission
+PennyLet is a local-first iPhone budgeting app. This Privacy Policy explains what information the app uses and how it is handled.
 
-2. How We Use Your Data
-Your data is used only to provide the app's features:
-- Display spending summaries, charts, and AI-powered insights
-- Track budgets, goals, and subscriptions
-- Sync data to your account for backup and multi-device access when you create an account
+1. Information You Add to the App
+PennyLet lets you enter and manage budgeting information, including:
+- Transactions, amounts, categories, dates, notes, and merchant names.
+- Income, budget settings, savings goals, and expense limits.
+- Subscription information you choose to track.
+- Receipt images or receipt details when you use receipt scanning.
 
-We do not sell your data to third parties. We do not use your data for advertising.
+PennyLet does not require an account or a bank connection.
 
-3. Data Storage
-Your data is stored on your device and synced to our secure cloud backend when you create an account. You can use the app in guest mode without creating an account. In guest mode, data stays only on your device.
+2. Local Storage
+Your core budgeting data is stored on your device. If you delete the app or reset app data, local data may be removed. You can export CSV data from the app if you want to keep a copy.
 
-4. AI Features
-AI analysis features send financial summaries to our AI service for processing. We avoid sending personally identifiable information in these requests. AI features are used only to provide PennyLet's finance insights.
+3. Optional AI and Receipt Features
+AI features are optional. When you request an AI insight or receipt extraction, PennyLet may send the information needed for that request, such as spending summaries or receipt content, to an AI processing service so the app can return the result. Do not include sensitive personal information in notes or receipts if you do not want it processed for these optional features.
 
-5. Your Rights
-You can:
-- Export all your data at any time from Settings > Export CSV
-- Delete app data by using Settings > Export & Reset
-- Request full account and data deletion by contacting us
+4. Purchases and Subscriptions
+PennyLet Pro purchases and subscription management are handled by Apple through the App Store. PennyLet uses Apple purchase information to unlock Pro features.
 
-6. Contact
-For privacy questions or data deletion requests, contact: clearspend.app@gmail.com
+5. Permissions
+- Camera: Used when you choose to scan a receipt.
+- Notifications: Used only if you allow reminders or app notifications.
+
+6. How We Use Information
+- To show budgets, transactions, goals, subscriptions, charts, and spending summaries.
+- To provide receipt scanning and optional AI insights when you request them.
+- To respond to support or privacy requests.
+
+We do not sell your data. We do not use your data for advertising.
+
+7. Data Deletion
+You can delete local app data using the app's reset tools or by deleting the app from your device. For privacy questions or deletion requests, contact us at f32pluspai@gmail.com.
+
+8. Children's Privacy
+PennyLet is not intended for children under 13. We do not knowingly collect personal information from children under 13.
+
+9. Changes to This Policy
+We may update this Privacy Policy from time to time. Updates will be posted on this page.
+
+10. Contact
+Contact us at f32pluspai@gmail.com.
