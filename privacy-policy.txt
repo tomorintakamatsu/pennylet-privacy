@@ -1,45 +1,163 @@
 PennyLet Privacy Policy
-Last updated: May 25, 2026
+1
+PennyLet Privacy Policy
+Read the current policy online
+Effective and last updated: November 6, 2026
+PennyLet is a local-first iPhone and iPad budgeting app. Its core features work without a PennyLet
+account, bank login, Plaid connection, or cloud finance sync.
+Plain-language summary: PennyLet works from a protected local database. Private iCloud Backup can
+keep a recovery copy so your data can return after reinstalling. Online AI is separate and optional; when
+you allow and use it, PennyLet sends only the prepared text needed for that request, not your full
+database, bank credentials, or receipt photo.
+1. Information you choose to add
+You may add transactions, amounts, dates, merchant names, notes, categories, accounts, budgets,
+payday details, goals, subscriptions, watchlists, custom categories, CSV files, wallpaper profiles, and
+other preferences. PennyLet uses this information to provide the features you request.
+AI results and Ask PennyLet conversations may also be saved locally so you can view their history.
+PennyLet does not require your name, email address, bank username, bank password, or payment-card
+credentials.
+2. Information stored on your device
+Your budgeting records, imported transactions, review decisions, subscriptions, goals, watchlists, AI
+history, and appearance profiles are stored in PennyLet's protected app storage on your device.
+PennyLet does not require a PennyLet account, bank login, or connected-finance service.
+You control how long local data remains. You can export transactions, clear Ask PennyLet history, or use
+Reset to remove PennyLet data. Files you export are stored wherever you choose and are then
+controlled by you and the selected storage provider.
+3. Private iCloud Backup
+Private iCloud Backup is enabled by default when iCloud is available. It keeps separate, dated saves
+containing your budgeting records, preferences, watchlists, AI history, and saved wallpaper profiles. An
+empty installation can restore the latest completed save after you reinstall PennyLet or install it on
+another device signed into the same iCloud account. You can use core budgeting without iCloud.
+The recovery copy is stored in your private Apple CloudKit database, is accessible only to your iCloud
+user by default, counts against your iCloud storage quota, and is not visible to PennyLet's developer
+through the developer portal. It is not sent to Cloudflare or the online AI provider.
+This is recovery backup, not live multi-device sync. Restore from iCloud opens your saved history so you
+can choose a date and time. Restoring replaces data on that device, not your other iCloud saves. Saves
+accumulate without automatic pruning and use your iCloud storage. You can back up, restore, or turn
+backup off under Settings > Data.
+The separate Back up when I open PennyLet setting is on by default. It requests a save when the app
+starts a new session, when iCloud and a connection are available. Switching back to an app that is
+already running does not start another backup. Changes stay saved on your device until the next app
+start or a manual backup. Turning this setting off keeps existing saves and manual backups available.
 
-PennyLet is a local-first iPhone budgeting app. This Privacy Policy explains what information the app uses and how it is handled.
 
-1. Information You Add to the App
-PennyLet lets you enter and manage budgeting information, including:
-- Transactions, amounts, categories, dates, notes, and merchant names.
-- Income, budget settings, savings goals, and expense limits.
-- Subscription information you choose to track.
-- Receipt images or receipt details when you use receipt scanning.
+PennyLet Privacy Policy
+2
+Deleting PennyLet from a device does not delete its iCloud saves. Reset clears this device but keeps
+saved backups. After a reset, automatic backup is paused until you restore or choose Save and Resume,
+which adds a new save and keeps earlier ones. To delete all indexed iCloud recovery saves, turn backup
+off in Settings > Data and confirm. A small record of that choice remains, without your financial data, so a
+reinstall can remember it. If deletion is interrupted, retry it to finish removing the saved files. Exported files
+are not deleted by Reset.
+Backups need a working iCloud account, connection, and available storage. A failed upload leaves your
+local data in place, but the cloud copy may be older. Check the backup status and last successful backup
+in Settings > Data before deleting the app.
+Pro subscription access and permission for online AI are not restored from this backup. Apple StoreKit
+checks Pro separately using the Apple Account that purchased it, and a restored installation asks again
+before sending a new online AI request.
+4. Optional online AI
+Online AI is off until you allow it. You can turn it off again in PennyLet Settings under Legal.
+When you allow and use an online AI feature, PennyLet sends a limited text request through PennyLet's
+Cloudflare Worker to the external AI processor DeepSeek. Depending on the feature, that request can
+contain:
+- a prepared summary of saved transactions, totals, budgets, goals, subscriptions, payday details, or
+other relevant PennyLet records;
+- your Ask PennyLet question, relevant saved labels and names to identify what you asked about, then
+app-calculated results to explain the answer;
+- a watchlist name and batches of current-month merchant, category, and description text used to
+identify matching entries; watchlist matching does not send transaction amounts or dates; or
+- recognized receipt text used to extract merchant, amount, date, category, and line-item details.
+PennyLet minimizes each request for its purpose. It does not intentionally include bank credentials, card
+credentials, advertising identifiers, a PennyLet account identity, or your full local database.
+These requests are not guaranteed to be anonymous. Questions, notes, merchant labels, and
+recognized receipt text may contain information that identifies you. The service also authenticates
+requests using an installation identifier. Please leave out personal details that are not needed for your
+question.
+Online AI results are generated for reference and may be incomplete or inaccurate. Review important
+amounts against your saved records. PennyLet does not provide financial, investment, tax, or legal
+advice.
+5. Receipt scanning
+Receipt scanning asks for Online AI permission before starting. Apple camera and text-recognition
+frameworks read the receipt image on your device; recognized text is then sent for structured extraction.
+The receipt photo is not uploaded. If the online request fails, PennyLet may offer locally recognized
+details for you to review. You can always enter a transaction manually without online AI.
 
-PennyLet does not require an account or a bank connection.
 
-2. Local Storage
-Your core budgeting data is stored on your device. If you delete the app or reset app data, local data may be removed. You can export CSV data from the app if you want to keep a copy.
+PennyLet Privacy Policy
+3
+6. Online processors and network information
+Cloudflare delivers and protects PennyLet's AI endpoint. Cloudflare may process network information
+such as an IP address, request timing, routing information, and security metadata. PennyLet's Worker is
+configured not to intentionally log prompts, financial summaries, receipt text, or AI responses. Limited
+technical error and security records may be retained for troubleshooting, rate limiting, and abuse
+prevention.
+DeepSeek processes the limited text request and returns the AI response. DeepSeek's Open Platform
+terms require downstream apps to provide their own privacy notice and consent. DeepSeek does not
+publish a guaranteed zero-retention period for every API request. Processing may occur in the People's
+Republic of China. Do not include information in questions, notes, watchlist names, or receipts that you
+do not want processed by this optional service.
+These providers process information under their applicable terms and privacy commitments. PennyLet
+does not authorize them to use PennyLet requests for advertising or cross-app tracking. Their services
+have separate security, legal-request, and retention obligations that PennyLet does not control.
+- Cloudflare Privacy Policy
+- DeepSeek Open Platform Terms
+- DeepSeek Privacy Policy
+7. Security and abuse prevention
+PennyLet uses Apple App Attest when available to help verify genuine installations. An Apple-generated
+app-install key identifier, cryptographic proof, counters, environment information, and security
+timestamps may be processed by PennyLet's Cloudflare Worker. These records are used for fraud
+prevention and request limiting, not advertising, and are not added to the AI prompt.
+The installation identifier is persistent security data, not an advertising ID. Security records can remain on
+the service after you delete the app; the current service does not automatically expire every registered
+installation record. Reset clears your local budget, not its saved iCloud backup or records already
+processed by external services. Contact us for a request concerning service-side data.
+8. Other services
+- Apple StoreKit: Apple provides localized Pro prices and handles purchases, billing, restoration, and
+subscription status. PennyLet does not receive your full payment-card details.
+- Apple CloudKit: If Private iCloud Backup is enabled, Apple stores PennyLet's recovery archive in
+your private iCloud database.
+- Apple subscription settings: PennyLet can open Apple's subscription-management page. PennyLet
+cannot read every subscription in your Apple Account.
+- Frankfurter: Optional exchange-rate requests send the source and destination currency codes.
+PennyLet does not send transaction descriptions, balances, or bank credentials with those requests.
+- Apple notifications: Payday reminders, check reminders, goal completion, and Ask PennyLet
+completion alerts use iOS notification permission. Notifications do not include paycheck amounts, goal
+names, or AI answers. A running AI request may have limited time to finish after you leave the app;
+iOS does not guarantee continuous background work.
 
-3. Optional AI and Receipt Features
-AI features are optional. When you request an AI insight or receipt extraction, PennyLet may send the information needed for that request, such as spending summaries or receipt content, to an AI processing service so the app can return the result. Do not include sensitive personal information in notes or receipts if you do not want it processed for these optional features.
 
-4. Purchases and Subscriptions
-PennyLet Pro purchases and subscription management are handled by Apple through the App Store. PennyLet uses Apple purchase information to unlock Pro features.
+PennyLet Privacy Policy
+4
+9. What PennyLet does not do
+PennyLet does not sell or rent your data, run advertising trackers, use your data for targeted advertising,
+require bank credentials, connect through Plaid, or require cloud finance sync. The current app does not
+include third-party advertising or product-analytics SDKs.
+10. Your choices and requests
+You can decline Online AI Processing and still use PennyLet's core budgeting tools. You can later
+disable Online AI Processing, clear local AI conversations, export transactions, correct saved records, or
+reset the app. Turning online AI off cancels pending app requests and prevents them from sending or
+retrying. Turning it back on does not resume those canceled requests. Cancellation cannot recall data
+already received by an external provider or guarantee that the provider stops processing it.
+PennyLet does not operate its own user-account or cloud-budget database. We generally cannot identify
+or retrieve local data from your device, and the developer cannot view your private CloudKit backup in the
+developer portal. For privacy questions or a request concerning data handled through PennyLet's
+services, contact us using the address below. We may need limited information to verify and respond to a
+request.
+11. Children and families
+PennyLet is a general budgeting utility and is not directed to young children. Anyone who is not old
+enough to consent to online data processing where they live should use PennyLet with a parent or
+guardian and leave Online AI Processing off unless that adult approves it.
+12. International processing
+If you use online AI, limited request data may be processed outside your country, including in the United
+States and the People's Republic of China, subject to the providers' terms and applicable law.
+13. Changes to this policy
+We may update this policy when PennyLet's features, service providers, or legal obligations change. The
+effective date at the top identifies the current version. If a change materially affects optional online
+processing, PennyLet will request new consent when required.
+14. Contact
+For privacy questions or requests, contact f32pluspai@gmail.com.
+If you email us, your email address, message, and any attachments are handled by our email provider
+and used to answer you. Do not send bank credentials or a complete financial export when a short
+description will do. You can also ask us to delete support correspondence, subject to any legal retention
+obligations.
 
-5. Permissions
-- Camera: Used when you choose to scan a receipt.
-- Notifications: Used only if you allow reminders or app notifications.
-
-6. How We Use Information
-- To show budgets, transactions, goals, subscriptions, charts, and spending summaries.
-- To provide receipt scanning and optional AI insights when you request them.
-- To respond to support or privacy requests.
-
-We do not sell your data. We do not use your data for advertising.
-
-7. Data Deletion
-You can delete local app data using the app's reset tools or by deleting the app from your device. For privacy questions or deletion requests, contact us at f32pluspai@gmail.com.
-
-8. Children's Privacy
-PennyLet is not intended for children under 13. We do not knowingly collect personal information from children under 13.
-
-9. Changes to This Policy
-We may update this Privacy Policy from time to time. Updates will be posted on this page.
-
-10. Contact
-Contact us at f32pluspai@gmail.com.
